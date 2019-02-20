@@ -20,18 +20,18 @@
         app:menu="@menu/navigation" />
 
     <RelativeLayout
-        android:layout_width="341dp"
-        android:layout_height="402dp"
+        android:layout_width="267dp"
+        android:layout_height="391dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toTopOf="@+id/navigation"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintHorizontal_bias="0.594"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.216">
+        app:layout_constraintVertical_bias="0.708">
 
         <TableLayout
             android:layout_width="match_parent"
@@ -39,25 +39,20 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:layout_alignTop="@+id/null">
 
                 <Button
-                    android:id="@+id/button13"
+                    android:id="@+id/buttonHB"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Button" />
 
-                <Button
-                    android:id="@+id/button12"
-                    android:layout_width="wrap_content"
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="165dp"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
-
-                <Button
-                    android:id="@+id/button11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:text="Hugo Boss" />
 
             </TableRow>
 
@@ -66,22 +61,16 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/button9"
+                    android:id="@+id/buttonD"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Button" />
 
-                <Button
-                    android:id="@+id/button8"
+                <TextView
+                    android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
-
-                <Button
-                    android:id="@+id/button7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:text="Dior" />
 
             </TableRow>
 
@@ -90,22 +79,16 @@
                 android:layout_height="match_parent">
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/buttonPC"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Button" />
 
-                <Button
-                    android:id="@+id/button4"
+                <TextView
+                    android:id="@+id/textView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Button" />
-
-                <Button
-                    android:id="@+id/button2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Button" />
+                    android:text="Pierre Cardin" />
 
             </TableRow>
         </TableLayout>
